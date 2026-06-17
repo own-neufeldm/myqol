@@ -1,5 +1,6 @@
 using Microsoft.Xna.Framework;
 using Terraria;
+using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
 namespace MyQualityOfLife
@@ -22,36 +23,31 @@ namespace MyQualityOfLife
 
       switch (args[0])
       {
+        case "angler":
+          Main.AnglerQuestSwap();
+          break;
+
+        case "freeze":
+          var power = CreativePowerManager.Instance.GetPower<CreativePowers.FreezeTime>();
+          power.SetPowerInfo(!power.Enabled);
+          break;
+
         default:
-          ShowHelp();
+          Print("Unknown command.", Color.OrangeRed);
           break;
       }
     }
 
     private static void ShowHelp()
     {
-      Print("Usage: myqol <command> [args]", Color.Yellow);
-      Print("help   Show this help message.");
+      Print("Usage: myqol <command>", Color.Yellow);
+      Print("angler   Reset the angler quest.");
+      Print("freeze   Freeze or unfreeze time.");
     }
 
     private static void Print(string text, Color? color = null)
     {
       Main.NewText(text, color);
-    }
-
-    private static void Log(string level, string message, Color color)
-    {
-      Print($"[{level}] myqol: {message}", color);
-    }
-
-    private static void LogError(string message)
-    {
-      Log("ERROR", message, Color.OrangeRed);
-    }
-
-    private static void LogInfo(string message)
-    {
-      Log("INFO", message, Color.Green);
     }
   }
 }
