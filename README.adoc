@@ -1,0 +1,4 @@
+= myqol
+:toc: auto
+
+Terraria mod for quality of life changes.
