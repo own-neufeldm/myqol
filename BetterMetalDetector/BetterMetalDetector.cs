@@ -120,7 +120,7 @@ namespace BetterMetalDetector
 
     [DefaultValue(150)]
     [Range(0, 32000)]
-    public int FossilOre;
+    public int FossilOre; // DesertFossil, FossilOre
 
     [DefaultValue(675)]
     [Range(0, 32000)]
