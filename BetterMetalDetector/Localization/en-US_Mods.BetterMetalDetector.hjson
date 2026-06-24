@@ -1,1 +1,140 @@
+Configs: {
+	Config: {
+		DisplayName: Client Config
 
+		AdamantiteOre: {
+			Label: Adamantite Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		Chest: {
+			Label: Chest
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		ChlorophyteOre: {
+			Label: Chlorophyte Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		CobaltOre: {
+			Label: Cobalt Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		CopperOre: {
+			Label: Copper Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		CrimtaneOre: {
+			Label: Crimtane Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		DemoniteOre: {
+			Label: Demonite Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		FossilOre: {
+			Label: Fossil Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		GelatinCrystal: {
+			Label: Gelatin Crystal
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		GlowTulip: {
+			Label: Glow Tulip
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		GoldOre: {
+			Label: Gold Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		IronOre: {
+			Label: Iron Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		LeadOre: {
+			Label: Lead Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		LifeCrystal: {
+			Label: Life Crystal
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		LifeFruit: {
+			Label: Life Fruit
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		ManaCrystal: {
+			Label: Mana Crystal
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		MeteoriteOre: {
+			Label: Meteorite Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		MythrilOre: {
+			Label: Mythril Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		OrichalcumOre: {
+			Label: Orichalcum Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		PalladiumOre: {
+			Label: Palladium Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		PlatinumOre: {
+			Label: Platinum Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		Pot: {
+			Label: Pot
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		SilverOre: {
+			Label: Silver Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		StrangePlant: {
+			Label: Strange Plant
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		TinOre: {
+			Label: Tin Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		TitaniumOre: {
+			Label: Titanium Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+
+		TungstenOre: {
+			Label: Tungsten Ore
+			Tooltip: Between 0 and 32000, inclusive. Higher is better.
+		}
+	}
+}
