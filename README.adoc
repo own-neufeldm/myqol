@@ -1,4 +1,18 @@
-= myqol
+= Terraria Mods
 :toc: auto
 
-Terraria mod for quality of life changes.
+== About
+
+A collection of Terraria mods.
+
+== Better Metal Detector
+
+Allows customizing the priority of objects that can be detected by a Metal Detector.
+
+== Better Tooltips
+
+Adds stats and other useful information to item tooltips.
+
+== My Quality Of Life
+
+A command-line tool for quality of life features.
