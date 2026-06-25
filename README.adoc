@@ -5,14 +5,34 @@
 
 A collection of Terraria mods.
 
-== Better Metal Detector
+== Mod Overview
+
+The following mods are part of this repository.
+
+=== Better Metal Detector
 
 Allows customizing the priority of objects that can be detected by a Metal Detector.
 
-== Better Tooltips
+=== Better Tooltips
 
 Adds stats and other useful information to item tooltips.
 
-== My Quality Of Life
+== Local Build
 
-A command-line tool for quality of life features.
+You can build a mod from this repository on your local machine like so:
+
+[source,powershell]
+----
+# clone this repository and cd into it, e.g.:
+git clone https://github.com/own-neufeldm/terraria-mods.git
+cd terraria-mods
+
+# create a symlink in tModLoader's mod sources, e.g.:
+.\mods.ps1 link BetterMetalDetector
+
+# tip: run the script without arguments for help 
+----
+
+Start tModLoader and, in the main menu, go to Workshop > Develop Mods > Build + Reload.
+
+Update to the latest version by running `git pull` and rebuilding in tModLoader.
