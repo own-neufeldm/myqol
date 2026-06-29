@@ -17,6 +17,11 @@ Allows customizing the priority of objects that can be detected by a Metal Detec
 
 Adds stats and other useful information to item tooltips.
 
+User feedback for improvement:
+
+* make config per player (per world) instead of per client
+* improve config UI by adding buttons for highest / lowest
+
 == Local Build
 
 You can build a mod from this repository on your local machine like so:
