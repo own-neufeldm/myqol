@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel;
 using Terraria.ModLoader.Config;
 
-namespace BetterMetalDetector.Configuration
+namespace BetterTreasureDetection.Configuration
 {
   public class Client : ModConfig
   {

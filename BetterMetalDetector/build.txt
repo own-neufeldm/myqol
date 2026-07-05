@@ -1,3 +1,0 @@
-displayName = Better Metal Detector
-author = Martin
-version = 0.1

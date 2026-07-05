@@ -9,18 +9,13 @@ A collection of Terraria mods.
 
 The following mods are part of this repository.
 
-=== Better Metal Detector
-
-Allows customizing the priority of objects that can be detected by a Metal Detector.
-
 === Better Tooltips
 
 Adds stats and other useful information to item tooltips.
 
-User feedback for improvement:
+=== Better Treasure Detection
 
-* make config per player (per world) instead of per client
-* improve config UI by adding buttons for highest / lowest
+Allows customizing the priority of ores and treasures.
 
 == Local Build
 

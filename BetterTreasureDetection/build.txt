@@ -1,0 +1,3 @@
+displayName = Better Treasure Detection
+author = Martin
+version = 0.1
