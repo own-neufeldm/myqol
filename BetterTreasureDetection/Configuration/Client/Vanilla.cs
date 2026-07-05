@@ -2,9 +2,9 @@ using System;
 using System.ComponentModel;
 using Terraria.ModLoader.Config;
 
-namespace BetterTreasureDetection.Configuration
+namespace BetterTreasureDetection.Configuration.Client
 {
-  public class Client : ModConfig
+  public class Vanilla : ModConfig
   {
     public override ConfigScope Mode => ConfigScope.ClientSide;
 

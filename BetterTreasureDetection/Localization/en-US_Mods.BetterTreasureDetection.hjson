@@ -1,6 +1,6 @@
 Configs: {
-	Client: {
-		DisplayName: Client
+	Vanilla: {
+		DisplayName: Vanilla
 
 		Headers: {
 			OresPreHM: Priority of Ores (Pre-Hardmode)
@@ -142,6 +142,92 @@ Configs: {
 		LifeFruit: {
 			Label: "[i:LifeFruit] Life Fruit"
 			Tooltip: Default is 810.
+		}
+	}
+
+	CalamityMod: {
+		DisplayName: Calamity Mod
+
+		Headers: {
+			OresPreHM: Priority of Ores (Pre-Hardmode)
+			OresHM: Priority of Ores (Hardmode)
+			OresPostML: Priority of Ores (Post-Moonlord)
+			Treasures: Priority of Treasures
+		}
+
+		AerialiteOre: {
+			Label: "[i:CalamityMod/AerialiteOre] Aerialite Ore"
+			Tooltip: Default is 450.
+		}
+
+		CryonicOre: {
+			Label: "[i:CalamityMod/CryonicOre] Cryonic Ore"
+			Tooltip: Default is 675.
+		}
+
+		InfernalSuevite: {
+			Label: "[i:CalamityMod/InfernalSuevite] Infernal Suevite"
+			Tooltip: Default is 675.
+		}
+
+		HallowedOre: {
+			Label: "[i:CalamityMod/HallowedOre] Hallowed Ore"
+			Tooltip: Default is 690.
+		}
+
+		PerennialOre: {
+			Label: "[i:CalamityMod/PerennialOre] Perennial Ore"
+			Tooltip: Default is 710.
+		}
+
+		ScoriaOre: {
+			Label: "[i:CalamityMod/ScoriaOre] Scoria Ore"
+			Tooltip: Default is 850.
+		}
+
+		AstralOre: {
+			Label: "[i:CalamityMod/AstralOre] Astral Ore"
+			Tooltip: Default is 900.
+		}
+
+		ExodiumOre: {
+			Label: "[i:CalamityMod/ExodiumCluster] Exodium Cluster"
+			Tooltip: Default is 760.
+		}
+
+		LunarOre: {
+			Label: "[i:LunarOre] Luminite Ore"
+			Tooltip: Default is 900.
+		}
+
+		UelibloomOre: {
+			Label: "[i:CalamityMod/UelibloomOre] Uelibloom Ore"
+			Tooltip: Default is 950.
+		}
+
+		AuricOre: {
+			Label: "[i:CalamityMod/AuricOre] Auric Ore"
+			Tooltip: Default is 1000.
+		}
+
+		Pot: {
+			Label: "[i:LesserHealingPotion] Pot"
+			Tooltip: Default is 100.
+		}
+
+		Chest: {
+			Label: "[i:Chest] Chest"
+			Tooltip: Default is 500.
+		}
+
+		IronBall: {
+			Label: "[i:CalamityMod/IronBall] Iron Ball"
+			Tooltip: Default is 770.
+		}
+
+		Roxcalibur: {
+			Label: "[i:CalamityMod/Roxcalibur] Roxcalibur"
+			Tooltip: Default is 910.
 		}
 	}
 }
