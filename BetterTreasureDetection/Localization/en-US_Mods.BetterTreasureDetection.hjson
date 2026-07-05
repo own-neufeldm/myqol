@@ -230,4 +230,59 @@ Configs: {
 			Tooltip: Default is 910.
 		}
 	}
+
+	ThoriumMod: {
+		DisplayName: Thorium Mod
+
+		Headers: {
+			OresPreHM: Priority of Ores (Pre-Hardmode)
+			OresHM: Priority of Ores (Hardmode)
+			Treasures: Priority of Treasures
+		}
+
+		ThoriumOre: {
+			Label: "[i:ThoriumMod/ThoriumOre] Thorium Ore"
+			Tooltip: Default is 280.
+		}
+
+		SmoothCoal: {
+			Label: "[i:ThoriumMod/SmoothCoal] Smooth Coal"
+			Tooltip: Default is 281.
+		}
+
+		LifeQuartz: {
+			Label: "[i:ThoriumMod/LifeQuartz] Life Quartz"
+			Tooltip: Default is 282.
+		}
+
+		Aquaite: {
+			Label: "[i:ThoriumMod/Aquaite] Aquaite Ore"
+			Tooltip: Default is 290.
+		}
+
+		LodeStone: {
+			Label: "[i:ThoriumMod/LodeStoneChunk] Lodestone Chunk"
+			Tooltip: Default is 660.
+		}
+
+		ValadiumChunk: {
+			Label: "[i:ThoriumMod/ValadiumChunk] Valadium Chunk"
+			Tooltip: Default is 660.
+		}
+
+		IllumiteChunk: {
+			Label: "[i:ThoriumMod/IllumiteChunk] Illumite Chunk"
+			Tooltip: Default is 710.
+		}
+
+		Chest: {
+			Label: "[i:Chest] Chest"
+			Tooltip: Default is 500.
+		}
+
+		CrystalWave: {
+			Label: "[i:ThoriumMod/CrystalWave] Crystal Wave"
+			Tooltip: Default is 750.
+		}
+	}
 }
