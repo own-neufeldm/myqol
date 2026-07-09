@@ -17,6 +17,10 @@ Adds stats and other useful information to item tooltips.
 
 Allows customizing the priority of ores and treasures.
 
+=== Meme Sounds
+
+Replaces sound effects with memes.
+
 == Local Build
 
 You can build a mod from this repository on your local machine like so:
