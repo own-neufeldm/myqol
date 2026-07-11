@@ -1,75 +1,10 @@
 Configs: {
-	Client: {
+	MemeSoundsClientConfig: {
 		DisplayName: Client
 
 		Headers: {
 			DeathSounds: Death Sounds
 			SpawnSounds: Spawn Sounds
-		}
-
-		ReverbFart: {
-			Label: Reverb Fart
-			Tooltip: Enable to add to rotation.
-		}
-
-		MetalPipeClang: {
-			Label: Metal Pipe Clang
-			Tooltip: Enable to add to rotation.
-		}
-
-		Fah: {
-			Label: Fah
-			Tooltip: Enable to add to rotation.
-		}
-
-		CatLaugh: {
-			Label: Cat Laugh
-			Tooltip: Enable to add to rotation.
-		}
-
-		AnimeWow: {
-			Label: Anime Wow
-			Tooltip: Enable to add to rotation.
-		}
-
-		AmongUsRoleReveal: {
-			Label: Among Us Role Reveal
-			Tooltip: Enable to add to rotation.
-		}
-
-		Amogus: {
-			Label: Amogus
-			Tooltip: Enable to add to rotation.
-		}
-
-		Ack: {
-			Label: Ack
-			Tooltip: Enable to add to rotation.
-		}
-
-		SadViolin: {
-			Label: Sad Violin
-			Tooltip: Enable to add to rotation.
-		}
-
-		SpongebobFail: {
-			Label: Spongebob Fail
-			Tooltip: Enable to add to rotation.
-		}
-
-		TheUndertakerBell: {
-			Label: The Undertaker Bell
-			Tooltip: Enable to add to rotation.
-		}
-
-		VineBoom: {
-			Label: Vine Boom
-			Tooltip: Enable to add to rotation.
-		}
-
-		WindowsXPError: {
-			Label: Windows XP Error
-			Tooltip: Enable to add to rotation.
 		}
 
 		WindowsXPShutdown: {

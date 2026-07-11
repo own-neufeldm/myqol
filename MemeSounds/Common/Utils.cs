@@ -1,17 +1,17 @@
 using System;
 
-namespace MemeSounds.Configuration
+namespace MemeSounds.Common
 {
-  public enum Event
+  public enum MemeSoundsEvent
   {
     Death,
     Spawn,
   }
 
   [AttributeUsage(AttributeTargets.Field)]
-  public class OnEventAttribute(Event value) : Attribute
+  public class OnEventAttribute(MemeSoundsEvent value) : Attribute
   {
-    public Event Value { get; } = value;
+    public MemeSoundsEvent Value { get; } = value;
   }
 
   [AttributeUsage(AttributeTargets.Field)]
