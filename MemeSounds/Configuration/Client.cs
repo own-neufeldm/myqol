@@ -19,34 +19,69 @@ namespace MemeSounds.Configuration
 
     [Header("DeathSounds")]
 
-    [SoundName("13OunceOkayLong")]
+    [SoundName("Ack")]
     [OnEvent(Event.Death)]
-    [DefaultValue(false)]
-    public bool ThirteenOunceOkayLong;
+    [DefaultValue(true)]
+    public bool Ack;
 
-    [SoundName("13OunceOkayShort")]
+    [SoundName("Amogus")]
     [OnEvent(Event.Death)]
-    [DefaultValue(false)]
-    public bool ThirteenOunceOkayShort;
+    [DefaultValue(true)]
+    public bool Amogus;
 
-    [SoundName("MetalPipeFalling")]
+    [SoundName("AmongUsRoleReveal")]
     [OnEvent(Event.Death)]
-    [DefaultValue(false)]
-    public bool MetalPipeFalling;
+    [DefaultValue(true)]
+    public bool AmongUsRoleReveal;
 
-    [SoundName("MinecraftTNT")]
+    [SoundName("AnimeWow")]
     [OnEvent(Event.Death)]
-    [DefaultValue(false)]
-    public bool MinecraftTNT;
+    [DefaultValue(true)]
+    public bool AnimeWow;
+
+    [SoundName("CatLaugh")]
+    [OnEvent(Event.Death)]
+    [DefaultValue(true)]
+    public bool CatLaugh;
+
+    [SoundName("Fah")]
+    [OnEvent(Event.Death)]
+    [DefaultValue(true)]
+    public bool Fah;
+
+    [SoundName("MetalPipeClang")]
+    [OnEvent(Event.Death)]
+    [DefaultValue(true)]
+    public bool MetalPipeClang;
 
     [SoundName("ReverbFart")]
     [OnEvent(Event.Death)]
-    [DefaultValue(false)]
+    [DefaultValue(true)]
     public bool ReverbFart;
+
+    [SoundName("SadViolin")]
+    [OnEvent(Event.Death)]
+    [DefaultValue(true)]
+    public bool SadViolin;
+
+    [SoundName("SpongebobFail")]
+    [OnEvent(Event.Death)]
+    [DefaultValue(true)]
+    public bool SpongebobFail;
+
+    [SoundName("TheUndertakerBell")]
+    [OnEvent(Event.Death)]
+    [DefaultValue(true)]
+    public bool TheUndertakerBell;
+
+    [SoundName("VineBoom")]
+    [OnEvent(Event.Death)]
+    [DefaultValue(true)]
+    public bool VineBoom;
 
     [SoundName("WindowsXPError")]
     [OnEvent(Event.Death)]
-    [DefaultValue(false)]
+    [DefaultValue(true)]
     public bool WindowsXPError;
 
     [SoundName("WindowsXPShutdown")]
@@ -54,7 +89,7 @@ namespace MemeSounds.Configuration
     [DefaultValue(true)]
     public bool WindowsXPShutdown;
 
-    [Header("RespawnSounds")]
+    [Header("SpawnSounds")]
 
     [SoundName("WindowsXPStartup")]
     [OnEvent(Event.Spawn)]

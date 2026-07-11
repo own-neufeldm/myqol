@@ -26,11 +26,11 @@ namespace MemeSounds.Content
       PlayRandomSound(config.SpawnSounds);
     }
 
-    public void PlayRandomSound(List<SoundStyle> sounds)
+    public static void PlayRandomSound(List<SoundStyle> sounds)
     {
       if (sounds.Count == 0) return;
-      SoundStyle sound = sounds[Main.rand.Next(sounds.Count)];
-      SoundEngine.PlaySound(sound, Player.position);
+      var sound = sounds[Main.rand.Next(sounds.Count)];
+      SoundEngine.PlaySound(sound);
     }
   }
 }

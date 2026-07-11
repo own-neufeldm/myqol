@@ -3,3 +3,5 @@
 
 # Explicitly protect binary files from line-ending normalization
 *.png binary
+*.mp3 binary
+*.wav binary

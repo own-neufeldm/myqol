@@ -4,31 +4,66 @@ Configs: {
 
 		Headers: {
 			DeathSounds: Death Sounds
-			RespawnSounds: Respawn Sounds
-		}
-
-		ThirteenOunceOkayLong: {
-			Label: 13Ounce - Okay (long)
-			Tooltip: Enable to add to rotation.
-		}
-
-		ThirteenOunceOkayShort: {
-			Label: 13Ounce - Okay (short)
-			Tooltip: Enable to add to rotation.
-		}
-
-		MetalPipeFalling: {
-			Label: Metal Pipe Falling
-			Tooltip: Enable to add to rotation.
-		}
-
-		MinecraftTNT: {
-			Label: Minecraft TNT
-			Tooltip: Enable to add to rotation.
+			SpawnSounds: Spawn Sounds
 		}
 
 		ReverbFart: {
 			Label: Reverb Fart
+			Tooltip: Enable to add to rotation.
+		}
+
+		MetalPipeClang: {
+			Label: Metal Pipe Clang
+			Tooltip: Enable to add to rotation.
+		}
+
+		Fah: {
+			Label: Fah
+			Tooltip: Enable to add to rotation.
+		}
+
+		CatLaugh: {
+			Label: Cat Laugh
+			Tooltip: Enable to add to rotation.
+		}
+
+		AnimeWow: {
+			Label: Anime Wow
+			Tooltip: Enable to add to rotation.
+		}
+
+		AmongUsRoleReveal: {
+			Label: Among Us Role Reveal
+			Tooltip: Enable to add to rotation.
+		}
+
+		Amogus: {
+			Label: Amogus
+			Tooltip: Enable to add to rotation.
+		}
+
+		Ack: {
+			Label: Ack
+			Tooltip: Enable to add to rotation.
+		}
+
+		SadViolin: {
+			Label: Sad Violin
+			Tooltip: Enable to add to rotation.
+		}
+
+		SpongebobFail: {
+			Label: Spongebob Fail
+			Tooltip: Enable to add to rotation.
+		}
+
+		TheUndertakerBell: {
+			Label: The Undertaker Bell
+			Tooltip: Enable to add to rotation.
+		}
+
+		VineBoom: {
+			Label: Vine Boom
 			Tooltip: Enable to add to rotation.
 		}
 
