@@ -15,6 +15,31 @@ namespace MemeSounds.Common.Configs
     public List<SoundStyle> DeathSounds { get; } = [];
     [Header("DeathSounds")]
 
+    [SoundName("Ack")]
+    [OnEvent(MemeSoundsEvent.Death)]
+    [DefaultValue(true)]
+    public bool Ack;
+
+    [SoundName("FortniteKnocked")]
+    [OnEvent(MemeSoundsEvent.Death)]
+    [DefaultValue(true)]
+    public bool FortniteKnocked;
+
+    [SoundName("MetalPipe")]
+    [OnEvent(MemeSoundsEvent.Death)]
+    [DefaultValue(true)]
+    public bool MetalPipe;
+
+    [SoundName("ReverbFart")]
+    [OnEvent(MemeSoundsEvent.Death)]
+    [DefaultValue(true)]
+    public bool ReverbFart;
+
+    [SoundName("TheUndertakerBell")]
+    [OnEvent(MemeSoundsEvent.Death)]
+    [DefaultValue(true)]
+    public bool TheUndertakerBell;
+
     [SoundName("WindowsXPShutdown")]
     [OnEvent(MemeSoundsEvent.Death)]
     [DefaultValue(true)]

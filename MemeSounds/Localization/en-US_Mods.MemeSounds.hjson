@@ -7,6 +7,31 @@ Configs: {
 			SpawnSounds: Spawn Sounds
 		}
 
+		Ack: {
+			Label: Ack
+			Tooltip: Enable to add to rotation.
+		}
+
+		FortniteKnocked: {
+			Label: Fortnite Knocked
+			Tooltip: Enable to add to rotation.
+		}
+
+		MetalPipe: {
+			Label: Metal Pipe
+			Tooltip: Enable to add to rotation.
+		}
+
+		ReverbFart: {
+			Label: Reverb Fart
+			Tooltip: Enable to add to rotation.
+		}
+
+		TheUndertakerBell: {
+			Label: The Undertaker Bell
+			Tooltip: Enable to add to rotation.
+		}
+
 		WindowsXPShutdown: {
 			Label: Windows XP Shutdown
 			Tooltip: Enable to add to rotation.
