@@ -60,7 +60,7 @@ namespace MemeSounds.Common.Configs
         var onEvent = (MemeSoundsEvent)field.GetValue(this);
         if (onEvent == MemeSoundsEvent.Disabled) continue;
 
-        SoundStyle sound = new($"MemeSounds/Assets/Sounds/{field.Name}");
+        var sound = new SoundStyle($"MemeSounds/Assets/Sounds/{field.Name}").WithVolumeScale(0.3f);
         if (onEvent == MemeSoundsEvent.Death) DeathSounds.Add(sound);
         if (onEvent == MemeSoundsEvent.Spawn) SpawnSounds.Add(sound);
       }
