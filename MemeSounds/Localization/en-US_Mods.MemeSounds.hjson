@@ -1,50 +1,65 @@
 Configs: {
 	MemeSoundsClientConfig: {
 		DisplayName: Client
-
-		Headers: {
-			DeathSounds: Death Sounds
-			SpawnSounds: Spawn Sounds
-		}
+		Headers.SoundEffects: Sound Effects
 
 		Ack: {
 			Label: Ack
-			Tooltip: Enable to add to rotation.
+			Tooltip: ""
 		}
 
 		Fah: {
 			Label: Fah
-			Tooltip: Enable to add to rotation.
+			Tooltip: ""
 		}
 
 		FortniteKnocked: {
 			Label: Fortnite Knocked
-			Tooltip: Enable to add to rotation.
+			Tooltip: ""
 		}
 
 		MetalPipe: {
 			Label: Metal Pipe
-			Tooltip: Enable to add to rotation.
+			Tooltip: ""
 		}
 
 		ReverbFart: {
 			Label: Reverb Fart
-			Tooltip: Enable to add to rotation.
+			Tooltip: ""
 		}
 
 		TheUndertakerBell: {
 			Label: The Undertaker Bell
-			Tooltip: Enable to add to rotation.
+			Tooltip: ""
 		}
 
 		WindowsXPShutdown: {
 			Label: Windows XP Shutdown
-			Tooltip: Enable to add to rotation.
+			Tooltip: ""
 		}
 
 		WindowsXPStartup: {
 			Label: Windows XP Startup
-			Tooltip: Enable to add to rotation.
+			Tooltip: ""
 		}
+	}
+
+	MemeSoundsEvent: {
+		Disabled: {
+			Label: Disabled
+			Tooltip: Never plays.
+		}
+
+		Death: {
+			Label: Death
+			Tooltip: Plays when dying.
+		}
+
+		Spawn: {
+			Label: Spawn
+			Tooltip: Plays when entering the world or respawning.
+		}
+
+		Tooltip: ""
 	}
 }
