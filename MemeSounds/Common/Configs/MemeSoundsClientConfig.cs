@@ -20,6 +20,11 @@ namespace MemeSounds.Common.Configs
     [DefaultValue(true)]
     public bool Ack;
 
+    [SoundName("Fah")]
+    [OnEvent(MemeSoundsEvent.Death)]
+    [DefaultValue(true)]
+    public bool Fah;
+
     [SoundName("FortniteKnocked")]
     [OnEvent(MemeSoundsEvent.Death)]
     [DefaultValue(true)]

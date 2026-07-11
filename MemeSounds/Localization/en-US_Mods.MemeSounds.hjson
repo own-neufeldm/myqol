@@ -12,6 +12,11 @@ Configs: {
 			Tooltip: Enable to add to rotation.
 		}
 
+		Fah: {
+			Label: Fah
+			Tooltip: Enable to add to rotation.
+		}
+
 		FortniteKnocked: {
 			Label: Fortnite Knocked
 			Tooltip: Enable to add to rotation.
