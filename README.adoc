@@ -21,6 +21,10 @@ Allows customizing the priority of ores and treasures.
 
 Replaces sound effects with memes.
 
+=== Shop Browser
+
+Extension for Recipe Browser also show NPC shop items. 
+
 == Local Build
 
 You can build a mod from this repository on your local machine like so:
