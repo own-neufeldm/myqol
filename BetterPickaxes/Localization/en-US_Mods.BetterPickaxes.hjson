@@ -1,0 +1,5 @@
+Configs: {
+	BetterPickaxesClientConfig: {
+		DisplayName: Client
+	}
+}

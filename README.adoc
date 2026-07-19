@@ -9,6 +9,10 @@ A collection of Terraria mods.
 
 The following mods are part of this repository.
 
+=== Better Pickaxes
+
+Applies the best pickaxe power in ones inventory to all pickaxes.
+
 === Better Tooltips
 
 Adds stats and other useful information to item tooltips.
