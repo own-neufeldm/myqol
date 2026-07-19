@@ -74,68 +74,40 @@ namespace BetterTooltips.Common.Systems
     {
       if (!ModLoader.TryGetMod("CalamityMod", out Mod mod)) return;
 
-      if (mod.TryFind("SkylineWings", out ModItem item)) // Skyline Wings
-        Cache.Add(item.Type, new(1.33f, 60, 0.0f));
-      if (mod.TryFind("StarlightWings", out item)) // Starlight Wings
-        Cache.Add(item.Type, new(2.83f, 117, 0.5f));
-      if (mod.TryFind("AureateBooster", out item)) // Aureate Booster
-        Cache.Add(item.Type, new(2.0f, 128, 0.5f));
-      if (mod.TryFind("HadarianWings", out item)) // Hadarian Wings
-        Cache.Add(item.Type, new(1.8f, 100, 1.0f));
-      if (mod.TryFind("HadalMantle", out item)) // Hadal Mantle
-        Cache.Add(item.Type, new(2.17f, 108, 1.0f));
-      if (mod.TryFind("ExodusWings", out item)) // Exodus Wings
-        Cache.Add(item.Type, new(3.0f, 222, 1.5f));
-      if (mod.TryFind("TarragonWings", out item)) // Tarragon Wings
-        Cache.Add(item.Type, new(4.5f, 335, 1.5f));
-      if (mod.TryFind("ElysianWings", out item)) // Elysian Wings
-        Cache.Add(item.Type, new(4.0f, 305, 2.0f));
-      if (mod.TryFind("SilvaWings", out item)) // Silva Wings
-        Cache.Add(item.Type, new(4.5f, 359, 1.8f));
-      if (mod.TryFind("WingsofRebirth", out item)) // Wings of Rebirth
-        Cache.Add(item.Type, new(6.0f, 490, 1.9f));
-      if (mod.TryFind("SoulofCryogen", out item)) // Soul of Cryogen
-        Cache.Add(item.Type, new(2.67f, 111, 0.0f));
-      if (mod.TryFind("MOAB", out item)) // MOAB
-        Cache.Add(item.Type, new(1.25f, 159, 0.0f));
-      if (mod.TryFind("MoonWalkers", out item)) // Moon Walkers
-        Cache.Add(item.Type, new(2.67f, 170, 1.6f));
-      if (mod.TryFind("VoidStriders", out item)) // Void Striders
-        Cache.Add(item.Type, new(3.33f, 229, 1.7f));
-      if (mod.TryFind("SeraphTracers", out item)) // Seraph Tracers
-        Cache.Add(item.Type, new(4.17f, 308, 1.8f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Skyline Wings").Type, new(1.33f, 60, 0.0f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Starlight Wings").Type, new(2.83f, 117, 0.5f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Aureate Booster").Type, new(2.0f, 128, 0.5f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Hadarian Wings").Type, new(1.8f, 100, 1.0f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Hadal Mantle").Type, new(2.17f, 108, 1.0f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Exodus Wings").Type, new(3.0f, 222, 1.5f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Tarragon Wings").Type, new(4.5f, 335, 1.5f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Elysian Wings").Type, new(4.0f, 305, 2.0f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Silva Wings").Type, new(4.5f, 359, 1.8f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Wings of Rebirth").Type, new(6.0f, 490, 1.9f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Soul of Cryogen").Type, new(2.67f, 111, 0.0f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "MOAB").Type, new(1.25f, 159, 0.0f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Moon Walkers").Type, new(2.67f, 170, 1.6f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Void Striders").Type, new(3.33f, 229, 1.7f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Seraph Tracers").Type, new(4.17f, 308, 1.8f));
     }
 
     private static void AddThoriumMod()
     {
       if (!ModLoader.TryGetMod("ThoriumMod", out Mod mod)) return;
 
-      if (mod.TryFind("ChampionsWings", out ModItem item)) // Champion's Wings
-        Cache.Add(item.Type, new(1.0f, 34, 0.0f));
-      if (mod.TryFind("DridersGrace", out item)) // Drider's Grace
-        Cache.Add(item.Type, new(0.0f, 28, 0.0f));
-      if (mod.TryFind("DragonsWings", out item)) // Dragon's Wings
-        Cache.Add(item.Type, new(2.0f, 72, 1.33f));
-      if (mod.TryFind("FleshWings", out item)) // Flesh Wings
-        Cache.Add(item.Type, new(2.0f, 72, 1.33f));
-      if (mod.TryFind("PhonicWings", out item)) // Phonic Wings
-        Cache.Add(item.Type, new(2.0f, 77, 1.33f));
-      if (mod.TryFind("TitanWings", out item)) // Titan Wings
-        Cache.Add(item.Type, new(2.0f, 72, 1.33f));
-      if (mod.TryFind("SubspaceWings", out item)) // Subspace Wings
-        Cache.Add(item.Type, new(2.0f, 72, 1.33f));
-      if (mod.TryFind("DreadWings", out item)) // Dread Wings
-        Cache.Add(item.Type, new(2.0f, 72, 1.5f));
-      if (mod.TryFind("DemonBloodWings", out item)) // Demon Blood Wings
-        Cache.Add(item.Type, new(2.0f, 72, 1.5f));
-      if (mod.TryFind("TerrariumWings", out item)) // Terrarium Wings
-        Cache.Add(item.Type, new(3.0f, 187, 1.67f));
-      if (mod.TryFind("ShootingStarTurboTuba", out item)) // Shooting Star Turbo Tuba
-        Cache.Add(item.Type, new(2.0f, 151, 1.17f));
-      if (mod.TryFind("CelestialCarrier", out item)) // Celestial Carrier
-        Cache.Add(item.Type, new(2.0f, 151, 1.17f));
-      if (mod.TryFind("WhiteDwarfThrusters", out item)) // White Dwarf Thrusters
-        Cache.Add(item.Type, new(2.0f, 151, 2.33f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Champion's Wings").Type, new(1.0f, 34, 0.0f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Drider's Grace").Type, new(0.0f, 28, 0.0f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Dragon's Wings").Type, new(2.0f, 72, 1.33f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Flesh Wings").Type, new(2.0f, 72, 1.33f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Phonic Wings").Type, new(2.0f, 77, 1.33f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Titan Wings").Type, new(2.0f, 72, 1.33f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Subspace Wings").Type, new(2.0f, 72, 1.33f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Dread Wings").Type, new(2.0f, 72, 1.5f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Demon Blood Wings").Type, new(2.0f, 72, 1.5f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Terrarium Wings").Type, new(3.0f, 187, 1.67f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Shooting Star Turbo Tuba").Type, new(2.0f, 151, 1.17f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "Celestial Carrier").Type, new(2.0f, 151, 1.17f));
+      Cache.Add(Utils.FindItemByDisplayName(mod, "White Dwarf Thrusters").Type, new(2.0f, 151, 2.33f));
     }
   }
 }

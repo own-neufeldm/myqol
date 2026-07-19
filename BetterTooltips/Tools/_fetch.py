@@ -19,15 +19,8 @@ class Stat:
     def dump_vanilla(self) -> str:
         return f"Cache.Add({self.id}, new({self.flight_time}f, {self.height}, {self.speed_bonus}f)); // {self.name}"
 
-    def dump_modded(self, first: bool) -> str:
-        name = self.name.replace("'", "").replace(" ", "")
-        type = " ModItem " if first else " "
-        return "\n".join(
-            [
-                f'if (mod.TryFind("{name}", out{type}item)) // {self.name}',
-                f"  Cache.Add(item.Type, new({self.flight_time}f, {self.height}, {self.speed_bonus}f));",
-            ]
-        )
+    def dump_modded(self) -> str:
+        return f'Cache.Add(Utils.FindItemByDisplayName(mod, "{self.name}").Type, new({self.flight_time}f, {self.height}, {self.speed_bonus}f));'
 
 
 @app.command()
@@ -100,8 +93,8 @@ def calamity() -> None:
 
             stats.append(Stat(name, id, flight_time, height, speed_bonus))
 
-    for index, stat in enumerate(stats):
-        print(stat.dump_modded(index == 0))
+    for stat in stats:
+        print(stat.dump_modded())
 
     return None
 
@@ -137,8 +130,8 @@ def thorium() -> None:
 
         stats.append(Stat(name, id, flight_time, height, speed_bonus))
 
-    for index, stat in enumerate(stats):
-        print(stat.dump_modded(index == 0))
+    for stat in stats:
+        print(stat.dump_modded())
 
     return None
 
