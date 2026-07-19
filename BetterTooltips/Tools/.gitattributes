@@ -1,0 +1,3 @@
+# Explicitly protect this python script from line-ending normalization
+fetch.py text eol=lf
+requirements.txt text eol=lf
