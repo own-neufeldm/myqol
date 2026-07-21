@@ -30,8 +30,8 @@ class Stat:
             "Tarragon Wings": "TarragonWings",
             "Elysian Wings": "ElysianWings",
             "Silva Wings": "SilvaWings",
-            "Wings of Rebirth": "WingsofRebirth",
-            "Soul of Cryogen": "SoulofCryogen",
+            "Wings of Rebirth": "WingsofRebirth",  # cspell: disable-line
+            "Soul of Cryogen": "SoulofCryogen",  # cspell: disable-line
             "MOAB": "MOAB",
             "Moon Walkers": "MoonWalkers",
             "Void Striders": "VoidStriders",
