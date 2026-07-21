@@ -74,7 +74,7 @@ namespace BetterTooltips.Common.Systems
     {
       if (!ModLoader.TryGetMod("CalamityMod", out Mod mod)) return;
 
-      // Cache.Add(Utils.FindItem(mod, "BetterToolTips/debug").Type, WingStats.Empty());
+      // Cache.Add(Utils.FindItem(mod, "BetterToolTips/debug").Type, WingStat.Empty());
       Cache.Add(Utils.FindItem(mod, "SkylineWings").Type, new(1.33f, 60, 0.0f)); // Skyline Wings
       Cache.Add(Utils.FindItem(mod, "StarlightWings").Type, new(2.83f, 117, 0.5f)); // Starlight Wings
       Cache.Add(Utils.FindItem(mod, "AureateBooster").Type, new(2.0f, 128, 0.5f)); // Aureate Booster
@@ -96,7 +96,7 @@ namespace BetterTooltips.Common.Systems
     {
       if (!ModLoader.TryGetMod("ThoriumMod", out Mod mod)) return;
 
-      // Cache.Add(Utils.FindItem(mod, "BetterToolTips/debug").Type, WingStats.Empty());
+      // Cache.Add(Utils.FindItem(mod, "BetterToolTips/debug").Type, WingStat.Empty());
       Cache.Add(Utils.FindItem(mod, "ChampionWing").Type, new(1.0f, 34, 0.0f)); // Champion's Wings
       Cache.Add(Utils.FindItem(mod, "DridersGrace").Type, new(0.0f, 28, 0.0f)); // Drider's Grace
       Cache.Add(Utils.FindItem(mod, "DragonWings").Type, new(2.0f, 72, 1.33f)); // Dragon's Wings

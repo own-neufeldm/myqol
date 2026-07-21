@@ -69,7 +69,7 @@ def vanilla() -> None:
     stats: list[Stat] = []
     for row in soup.find("table").find_all("tr")[1:]:  # type: ignore
         cols = row.find_all(["td", "th"])
-        if len(cols) < 10:
+        if len(cols) < 8:
             continue
 
         value = cols[1].get_text(strip=True)
@@ -109,7 +109,7 @@ def calamity() -> None:
     for table in tables:
         for row in table.find_all("tr")[1:]:
             cols = row.find_all(["td", "th"])
-            if len(cols) < 10:
+            if len(cols) < 7:
                 continue
 
             value = cols[1].get_text(strip=True)
@@ -145,7 +145,7 @@ def thorium() -> None:
     stats: list[Stat] = []
     for row in soup.find_all("table")[1].find_all("tr")[1:]:
         cols = row.find_all(["td", "th"])
-        if len(cols) < 10:
+        if len(cols) < 7:
             continue
 
         value = cols[1].get_text(strip=True)

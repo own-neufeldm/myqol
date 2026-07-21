@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using BetterTooltips.Common.Stats;
 using BetterTooltips.Common.Systems;
 using Terraria;
 using Terraria.ModLoader;
@@ -11,7 +12,7 @@ namespace BetterTooltips.Common.Items
     {
       if (!IsWing(item) || Utils.IsHoveringSocialSlot()) return;
 
-      var empty = Stats.WingStat.Empty();
+      var empty = WingStat.Empty();
       var hovered = WingSystem.Cache.GetValueOrDefault(item.type, empty);
       var equipped = Main.LocalPlayer.equippedWings is not Item wings ? empty
         : WingSystem.Cache.GetValueOrDefault(wings.type, empty);
