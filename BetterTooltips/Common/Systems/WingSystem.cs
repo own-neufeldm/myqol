@@ -88,8 +88,8 @@ namespace BetterTooltips.Common.Systems
     //   Cache.Add(Utils.FindItem(mod, "TarragonWings").Type, new(4.5f, 335, 1.5f)); // Tarragon Wings
     //   Cache.Add(Utils.FindItem(mod, "ElysianWings").Type, new(4.0f, 305, 2.0f)); // Elysian Wings
     //   Cache.Add(Utils.FindItem(mod, "SilvaWings").Type, new(4.5f, 359, 1.8f)); // Silva Wings
-    //   Cache.Add(Utils.FindItem(mod, "WingsofRebirth").Type, new(6.0f, 490, 1.9f)); // Wings of Rebirth
-    //   Cache.Add(Utils.FindItem(mod, "SoulofCryogen").Type, new(2.67f, 111, 0.0f)); // Soul of Cryogen
+    //   Cache.Add(Utils.FindItem(mod, "WingsofRebirth").Type, new(6.0f, 490, 1.9f)); // Wings of Rebirth - cspell:disable-line
+    //   Cache.Add(Utils.FindItem(mod, "SoulofCryogen").Type, new(2.67f, 111, 0.0f)); // Soul of Cryogen - cspell:disable-line
     //   Cache.Add(Utils.FindItem(mod, "MOAB").Type, new(1.25f, 159, 0.0f)); // MOAB
     //   Cache.Add(Utils.FindItem(mod, "MoonWalkers").Type, new(2.67f, 170, 1.6f)); // Moon Walkers
     //   Cache.Add(Utils.FindItem(mod, "VoidStriders").Type, new(3.33f, 229, 1.7f)); // Void Striders
